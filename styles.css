@@ -387,19 +387,11 @@ p {
     padding-top: 15px;
   }
 
-  #game-container {
+  #game-container, .modal-content {
     width: 85%;
     max-width: none;
     margin: 0 auto;
     padding: 10px;
-    transform-origin: top center;
-  }
-
-  .modal-content {
-    width: 85%;
-    max-width: none;
-    padding: 10px;
-    margin: 0 auto;
     transform-origin: top center;
   }
 
