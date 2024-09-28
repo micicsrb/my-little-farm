@@ -380,7 +380,7 @@ p {
 @media (max-width: 767px) {
   body {
     align-items: flex-start;
-    padding-top: 20px;
+    padding-top: 15px;
   }
 
   #game-container {
