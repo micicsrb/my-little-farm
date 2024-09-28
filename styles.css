@@ -221,7 +221,7 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-#status, #weather {
+#status, #time-wrapper {
   font-size: 1.2em;
   font-weight: bold;
   margin-bottom: 10px;
@@ -238,16 +238,20 @@ p {
 #score-wrapper {
   flex: 1;
   text-align: right;
-}
-
-#time-wrapper {
-  flex: 1;
-  text-align: left;
+  margin-top: 10px;
 }
 
 #separator {
   flex: 0;
-  padding: 0 50px;
+  padding: 0 45px;
+  margin-top: 10px
+}
+
+#weather {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 #close-instructions-modal, #close-end-game-modal {
@@ -443,8 +447,12 @@ p {
     left: 2px;
   }
 
-  #tools, #seeds, #game-controls {
+  #tools, #game-controls {
     margin-bottom: 10px;
+  }
+
+  #seeds {
+    margin-bottom: 0;
   }
 
   .tool, .seed, #restart, #show-tutorial, #pause, #harvest {
@@ -453,7 +461,7 @@ p {
     height: 45px;
   }
 
-  #status, #weather {
+  #status, #time-wrapper {
     font-size: 1em;
     margin: 5px;
   }
