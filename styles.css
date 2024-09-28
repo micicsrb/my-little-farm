@@ -9,6 +9,7 @@ body {
   user-select: none;
   background: linear-gradient(to bottom, #87CEEB 75%, #4CAF50 25%);
   box-sizing: border-box;
+  touch-action: manipulation; /* Disable double-tap zoom on mobile */
 }
 
 .fa-utensil-spoon {
@@ -384,5 +385,54 @@ p {
 
   #game-board {
     row-gap: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+
+  #game-container {
+    width: 100%;
+    /*max-width: none;*/
+    /*transform: scale(1.2);*/
+    transform-origin: top center;
+  }
+
+  h1 {
+    font-size: 2.3em;
+    /*margin: 10px 0 15px 0;*/
+  }
+
+  #game-board {
+    /*gap: 20px;*/
+
+    row-gap: 25px;
+    /*padding: 0 10px;*/
+  }
+
+  .pot {
+    /*width: 90px;*/
+    /*height: 90px;*/
+  }
+
+  .pot .emoji {
+    /*font-size: 35px;*/
+  }
+
+  #tools, #seeds, #game-controls {
+    margin-bottom: 15px;
+  }
+
+  .tool, .seed, #restart, #show-tutorial, #pause, #harvest {
+    /*width: 40px;*/
+    /*height: 40px;*/
+    /*font-size: 20px;*/
+  }
+
+  #status, #weather {
+    /*font-size: 1em;*/
   }
 }
