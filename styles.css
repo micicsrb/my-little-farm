@@ -433,7 +433,7 @@ p {
   }
 
   .water-level {
-    font-size: 8px;
+    font-size: 7px;
     top: 3px;
     left: 3px;
   }
@@ -442,6 +442,10 @@ p {
     font-size: 11px;
     bottom: 3px;
     left: 2px;
+  }
+  
+  #countdown {
+    font-size: 85px;
   }
 
   #tools, #game-controls {
