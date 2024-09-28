@@ -79,11 +79,6 @@ p {
   text-shadow: 0 0 10px rgba(255, 215, 0, 0.8); /* Add a glowing effect */
 }
 
-#harvest:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
 .pot .emoji {
   font-size: 45px;
   transition: all 0.3s ease;
@@ -197,7 +192,7 @@ p {
   margin-bottom: 20px;
 }
 
-.tool, .seed, #restart, #show-tutorial, #pause, #harvest {
+.tool, .seed, #restart, #show-tutorial, #pause {
   font-size: 24px;
   display: flex;
   align-items: center;
@@ -450,7 +445,7 @@ p {
     margin-bottom: 0;
   }
 
-  .tool, .seed, #restart, #show-tutorial, #pause, #harvest {
+  .tool, .seed, #restart, #show-tutorial, #pause {
     font-size: 20px;
     width: 45px;
     height: 45px;
