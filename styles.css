@@ -432,17 +432,14 @@ p {
     font-size: 36px;
   }
 
-  .level-indicator {
-    font-size: 11px;
-  }
-
   .water-level {
-    font-size: 9px;
+    font-size: 8px;
     top: 3px;
     left: 3px;
   }
 
   .food-level {
+    font-size: 11px;
     bottom: 3px;
     left: 2px;
   }
