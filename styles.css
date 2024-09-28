@@ -460,6 +460,11 @@ p {
     font-size: 1em;
     margin: 5px;
   }
+
+  /* Disable blue selection box on mobile devices */
+  div, span {
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 @keyframes wave {
