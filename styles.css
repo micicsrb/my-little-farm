@@ -396,7 +396,7 @@ p {
   }
 
   .modal-content, #instructions-modal-content {
-    width: 85%;
+    width: 90% !important;
     max-width: none;
     padding: 10px;
   }
@@ -433,7 +433,7 @@ p {
   }
 
   .water-level {
-    font-size: 7px;
+    font-size: 8px;
     top: 3px;
     left: 3px;
   }
@@ -443,7 +443,7 @@ p {
     bottom: 3px;
     left: 2px;
   }
-  
+
   #countdown {
     font-size: 85px;
   }
