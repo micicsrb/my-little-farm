@@ -395,7 +395,7 @@ p {
   }
 
   #game-container {
-    /*width: 100%;*/
+    width: 100%;
     /*max-width: none;*/
     /*transform: scale(1.2);*/
     transform-origin: top center;
