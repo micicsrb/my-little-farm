@@ -424,6 +424,25 @@ p {
     height: 80px;
   }
 
+  .pot .emoji {
+    font-size: 36px;
+  }
+
+    .level-indicator {
+        font-size: 11px;
+
+    }
+
+  .water-level {
+    top: 3px;
+    left: 3px;
+  }
+
+  .food-level {
+    bottom: 3px;
+    left: 2px;
+  }
+
   #tools, #seeds, #game-controls {
     margin-bottom: 10px;
   }
@@ -450,13 +469,27 @@ p {
 }
 
 @keyframes rainbow {
-  0% { color: red; }
-  16% { color: orange; }
-  33% { color: #FFD700; }
-  50% { color: green; }
-  66% { color: blue; }
-  83% { color: indigo; }
-  100% { color: violet; }
+  0% {
+    color: red;
+  }
+  16% {
+    color: orange;
+  }
+  33% {
+    color: #FFD700;
+  }
+  50% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  83% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
 }
 
 #wave-text span {
@@ -489,5 +522,5 @@ p {
 }
 
 #wave-text span:nth-child(7) {
-    animation-delay: 0.6s, 0.6s;
+  animation-delay: 0.6s, 0.6s;
 }
