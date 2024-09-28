@@ -380,7 +380,7 @@ p {
 @media (max-width: 767px) {
   body {
     align-items: flex-start;
-    padding-top: 25px;
+    padding-top: 20px;
   }
 
   #game-container {
@@ -392,15 +392,21 @@ p {
   }
 
   h1 {
-    font-size: 2.3em;
+    font-size: 2em;
   }
 
   #game-board {
     gap: 20px;
+    margin: 15px;
+  }
+
+  .pot {
+    width: 80px;
+    height: 80px;
   }
 
   #tools, #seeds, #game-controls {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .tool, .seed, #restart, #show-tutorial, #pause, #harvest {
@@ -411,5 +417,6 @@ p {
 
   #status, #weather {
     font-size: 1em;
+    margin: 5px;
   }
 }
