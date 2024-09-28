@@ -391,8 +391,27 @@ p {
     transform-origin: top center;
   }
 
+  .modal-content, #instructions-modal-content {
+    width: 85%;
+    max-width: none;
+    padding: 10px;
+  }
+
+  #instructions-modal ol {
+    margin: 0 0 20px 0;
+    padding: 5px 25px 2px 40px;
+  }
+
   h1 {
     font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  p {
+    padding: 0 10px;
   }
 
   #game-board {
